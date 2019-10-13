@@ -16,6 +16,7 @@ const config = {
         use: ['style-loader', 'css-loader'],
         test: /\.css$/
     }
+      
     ]
   }
 };
