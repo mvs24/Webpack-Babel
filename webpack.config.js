@@ -35,4 +35,5 @@ const config = {
   plugins: [new ExtractTextPlugin("style.css")]
 };
 
+
 module.exports = config;
