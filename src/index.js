@@ -1,6 +1,9 @@
-const sum = require('./sum')
-const imageViewer = require('./imageViewer');
+const button = document.createElement('button')
+button.innerText = 'Click me for CODE SPLITTING'
+button.onclick = () => {
+    System.import('./imageViewer.js').then(importedModule => {
+        importedModule.default();
+    })
+}
 
-
-const total = sum(1, 2);
-console.log(total);
+document.body.appendChild(button)
