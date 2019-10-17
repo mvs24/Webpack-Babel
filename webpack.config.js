@@ -34,6 +34,5 @@ const config = {
   },
   plugins: [new ExtractTextPlugin("style.css")]
 };
-// ok
 
 module.exports = config;
